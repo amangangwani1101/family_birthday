@@ -11,7 +11,7 @@ body {
   background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%);
 }
 
-div#beach,
+#beach,
 canvas#canvas {
   position: absolute;
   top: 0;
@@ -20,7 +20,7 @@ canvas#canvas {
   height: 100%;
 }
 
-div#beach {
+#beach {
   background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
   /* background-size: cover; */
   background-position: bottom right;
@@ -28,13 +28,13 @@ div#beach {
   background-repeat: no-repeat;
 }
 
-div#video {
+#video {
   position: absolute;
   right: 243px;
   bottom: 200px;
 }
 
-div#video iframe {
+#video iframe {
   width: 255px;
   height: 155px;
 }
@@ -53,7 +53,7 @@ div#video iframe {
   width: 230px;
 }
 
-div#sea {
+#sea {
   background-color: blue;
   height: 85px;
   position: absolute;
@@ -438,16 +438,16 @@ div#sea {
     width: 160px;
   }
 
-  div#beach {
+  #beach {
     background-size: 2000px;
   }
 
-  div#video {
+  #video {
     right: 290px;
     bottom: 235px;
   }
 
-  div#video iframe {
+  #video iframe {
     width: 295px;
     height: 185px;
   }
